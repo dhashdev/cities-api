@@ -4,11 +4,39 @@ Cities API is a Nest.js project that provides endpoints for managing city-relate
 
 ## Table of Contents
 
+- [Endpoints](#endpoints)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Commands](#commands)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Endpoints
+
+**Endpoint:** https://cities-api-sqkp.onrender.com
+
+### 1. All Cities
+
+**Endpoint:** https://cities-api-sqkp.onrender.com/cities
+
+**Description:**
+Retrieve information about all cities.
+
+### 2. Single City
+
+**Endpoint:** https://cities-api-sqkp.onrender.com/cities/**{id}**
+
+**Description:**
+Retrieve information about a single city **{id}**
+
+### 3. Latitude and Longitude of Specific City
+
+**Endpoint:** https://cities-api-sqkp.onrender.com/cities/lat-lng/**{id}**
+
+**Description:**
+Retrieve information about the latitude and longitude of a specific city.
+
+> Replace `{id}` with the actual ID of the city when making requests to the specific city and lat-lng endpoints.
 
 ## Getting Started
 
@@ -83,6 +111,16 @@ tsconfig.json
 - `npm run start:dev`: Run the application in development mode with watch mode enabled.
 
 - `npm run test`: Run unit tests.
+
+### Docker Image
+
+> Docker image for the project as been also setup, just for showcase purpose. Endpoint or using the local running project is more preferable.
+
+Command to pull the docker image:
+
+`docker pull dhashdev/cities-api-image:1.0`
+
+**Set the port of container to:** `3001`
 
 ## Contributing
 
