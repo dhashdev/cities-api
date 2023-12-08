@@ -1,0 +1,9 @@
+## List all the cities
+
+GET http://localhost:3000/cities
+
+### Get single city
+GET http://localhost:3000/cities/1
+
+### Get lat and lng for a single city
+GET http://localhost:3000/cities/lat-lng/1
