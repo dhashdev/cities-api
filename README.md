@@ -24,14 +24,14 @@ Retrieve information about all cities.
 
 ### 2. Single City
 
-**Endpoint:** https://cities-api-sqkp.onrender.com/cities/**{id}**
+**Endpoint:** https://cities-api-sqkp.onrender.com/cities/{id}
 
 **Description:**
 Retrieve information about a single city **{id}**
 
 ### 3. Latitude and Longitude of Specific City
 
-**Endpoint:** https://cities-api-sqkp.onrender.com/cities/lat-lng/*{id}*
+**Endpoint:** https://cities-api-sqkp.onrender.com/cities/lat-lng/{id}
 
 **Description:**
 Retrieve information about the latitude and longitude of a specific city.
